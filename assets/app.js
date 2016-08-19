@@ -12,7 +12,7 @@ app.controller('PostsCtrl', function ($scope, PostsSvc){
 			//unshift a new post into $scope.posts
 			//$http.post('/api/posts', {
 			PostsSvc.create({
-				username: 'dickeyaabbzzz',
+				username: 'irocbigtime',
 				body: $scope.postBody
 			}).success(function(post){
 				$scope.posts.unshift(post)
